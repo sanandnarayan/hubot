@@ -18,6 +18,8 @@
     "hubot":         ">=2.4.8",
     "hubot-hipchat": ">= 2.4.5",
     "hubot-scripts": ">= 2.4.1",
+    "htmlparser": "1.7.6",
+    "soupselect" : "0.2.0",
     "optparse":      "1.0.3"
   },
 
