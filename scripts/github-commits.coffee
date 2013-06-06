@@ -23,13 +23,11 @@ querystring = require('querystring')
 gitio = require('gitio')
 
 module.exports = (robot) ->
-  console.log 'loaded'
 
   robot.router.post "/hubot/gh-commits", (req, res) ->
-    console.log 'got the request'
     query = querystring.parse(url.parse(req.url).query)
 
-    res.end
+    res.end()
 
     user = {}
     user.room = query.room if query.room
